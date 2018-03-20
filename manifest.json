@@ -1,0 +1,19 @@
+{
+    "author": "Plugtopus Agency",
+   "content_scripts": [ {
+      "css": [ "css/quickblocker.css" ],
+      "js": [ "js/jquery-2.0.3.min.js", "js/quickblocker.js" ],
+      "matches": [ "http://twitter.com/*", "https://twitter.com/*" ]
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "homepage_url": "https://plugtopus.agency",
+   "icons": {
+    "128": "icons/icon.png"
+    },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "20.3.18.1",
+   "web_accessible_resources": [ "img/quickblocker.png" ]
+}
